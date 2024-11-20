@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{df674bd6-4a82-4092-aa6b-d34b0f5a9f11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="render_square.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXImport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="render_square.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXImport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="PixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shared.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resource\box.fbx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\Character.fbx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\IcoSphere.fbx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\Monkey.fbx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\Torus.fbx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\Tree.fbx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\zeldaPosed001.fbx">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource\1_Base_color.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\1_Metallic.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\1_Normal_OpenGL.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\1_Roughness.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\2_Base_color.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\2_Metallic.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\2_Normal_OpenGL.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\2_Roughness.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\bark_0021.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\Bricks059_1K-JPG_Color.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\Bricks059_1K-JPG_NormalDX.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\Bricks059_Specular.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\DB2X2_L01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\DB2X2_L01_Nor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\DB2X2_L01_Spec.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\ely-vanguardsoldier-kerwinatienza_diffuse.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\ely-vanguardsoldier-kerwinatienza_glow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\ely-vanguardsoldier-kerwinatienza_normal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\ely-vanguardsoldier-kerwinatienza_specular.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\eyes_diff.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\fire_diff.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\hair_diff.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\misc_diff.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\setCave_diff.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\zelda_diff.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
